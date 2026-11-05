@@ -15,7 +15,7 @@ export const Navbar: React.FC = () => {
         setScrolled(false);
       }
 
-      const sections = ['inicio', 'proyectos', 'nosotros', 'servicios', 'journal', 'contacto'];
+      const sections = ['inicio', 'proyectos', 'nosotros', 'servicios', 'soldadura', 'journal', 'contacto'];
       const scrollPosition = window.scrollY + 200;
 
       for (const section of sections) {
@@ -40,6 +40,7 @@ export const Navbar: React.FC = () => {
     { name: 'Nosotros', href: '#nosotros', id: 'nosotros' },
     { name: 'Proyectos', href: '#proyectos', id: 'proyectos' },
     { name: 'Servicios', href: '#servicios', id: 'servicios' },
+    { name: 'Soldadura Inox', href: '#soldadura', id: 'soldadura' },
     { name: 'Journal', href: '#journal', id: 'journal' },
     { name: 'Contacto', href: '#contacto', id: 'contacto' },
   ];

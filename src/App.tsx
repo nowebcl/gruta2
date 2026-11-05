@@ -5,6 +5,7 @@ import { ProjectsSection } from './components/ProjectsSection';
 import { EditorialBreak } from './components/EditorialBreak';
 import { StudioSection } from './components/StudioSection';
 import { ApproachSection } from './components/ApproachSection';
+import { SoldaduraSection } from './components/SoldaduraSection';
 import { ReviewsSection } from './components/ReviewsSection';
 import { JournalSection } from './components/JournalSection';
 import { ContactSection } from './components/ContactSection';
@@ -43,6 +44,9 @@ export const App: React.FC = () => {
 
         {/* Servicios / ¿Por Qué Elegirnos? */}
         <ApproachSection />
+
+        {/* Soldadura Inoxidable Gallery */}
+        <SoldaduraSection />
 
         {/* Real Customer Reviews */}
         <ReviewsSection />
